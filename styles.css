@@ -1,0 +1,14 @@
+.contacts li a.instagram:hover {
+  color: #525252;
+}
+
+.contacts li a.twitter:hover {
+  color: #0077b5;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20%;
+}
