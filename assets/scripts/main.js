@@ -28,7 +28,7 @@ const handleBtnClick = (event) => {
   clearSelection();
   event.target.classList.add('active');
 
-  document.getElementById('movement').src = `assets/images/moves/${
+  document.getElementById('movement').src = `./assets/images/moves/${
     movesets[event.target.id]
   }`;
 };
