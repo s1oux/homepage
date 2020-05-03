@@ -39,3 +39,30 @@ main:nth-last-child(3) {
 .achievements {
   list-style: square;
 }
+
+.moveset-controls {
+  margin-bottom: 1rem;
+}
+
+.moveset-presentation {
+  min-height: 150px;
+}
+
+.moveset-ctrl-btn {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  padding: 5px;
+  width: 12%;
+}
+
+.moveset-ctrl-btn:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+.moveset-ctrl-btn.active {
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
